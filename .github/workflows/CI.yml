@@ -12,8 +12,9 @@ jobs:
     strategy:
       matrix:
         ruby:
-          - '2.6'
+          - '3.0'
           - '2.7'
+          - '2.6'
         activerecord:
           - '6.1'
           - '6.0'
